@@ -5,7 +5,7 @@
                 <div class="post-preview">
                     <a href="<?php the_permalink(); ?>"><h2 class="post-title"><?php the_title(); ?></h2></a>
                     <p class="post-subtitle"><?php echo get_the_excerpt(); ?></p>
-                    <p class="post-meta">Posted by <?php the_author_posts_link(); ?> on <?php the_date(); ?> in <?php the_category(', '); ?></p>
+                    <p class="post-meta">Posted by <?php the_author_posts_link(); ?> on <?php echo get_post_time('F j, Y'); ?> in <?php the_category(', '); ?></p>
                 </div>
                 <hr />
     <?php endwhile; ?>

@@ -45,7 +45,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-<?php if (is_singular()) : echo "                <a class=\"navbar-brand\" href=\""; echo home_url('/'); echo "\">"; bloginfo('name'); echo "</a>\n"; endif; ?>
+<?php if (is_singular()) : ?>
+<?php echo "                <a class=\"navbar-brand\" href=\""; echo home_url('/'); echo "\">"; bloginfo('name'); echo "</a>\n"; ?>
+<?php endif; ?>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -69,7 +71,7 @@
     <?php if (have_posts()) : ?>
         <?php while (have_posts()) : the_post(); ?>
             <?php echo "                        <h1>"; echo trim(wp_title('', false)); echo "</h1>\n"; ?>
-            <?php echo "                        <span class=\"meta\">Posted by "; the_author_posts_link(); echo " on "; the_date(); echo " in "; the_category(', '); echo "</span>\n"; ?>
+            <?php echo "                        <span class=\"meta\">Posted by "; the_author_posts_link(); echo " on "; echo get_post_time('F j, Y'); echo " in "; the_category(', '); echo "</span>\n"; ?>
         <?php endwhile; ?>
     <?php endif; ?>
 <?php else : ?>
