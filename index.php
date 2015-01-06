@@ -7,7 +7,7 @@
                     <p class="post-subtitle"><?php echo get_the_excerpt(); ?></p>
                     <p class="post-meta">Posted by <?php the_author_posts_link(); ?> on <?php the_date(); ?> in <?php the_category(', '); ?></p>
                 </div>
-                <hr>
+                <hr />
     <?php endwhile; ?>
 <?php else : ?>
 <?php endif; ?>
@@ -20,8 +20,6 @@
             </div>
         </div>
     </div>
-
-    <hr>
 
 <?php get_footer(); ?>
 

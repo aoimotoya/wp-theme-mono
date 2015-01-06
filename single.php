@@ -12,12 +12,9 @@
     <?php endwhile; ?>
 <?php else : ?>
 <?php endif; ?>
-
             </div>
         </div>
     </div>
-
-    <hr>
 
 <?php get_footer(); ?>
 
