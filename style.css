@@ -150,11 +150,12 @@ hr.small {
 }
 .intro-header {
   background-color: #555;
-  background-image: url('../img/bg.png');
+  background-image: url('./img/bg.png');
   background-attachment: scroll;
   margin-bottom: 10px;
 }
 .intro-header .site-heading,
+.intro-header .site-heading a,
 .intro-header .post-heading,
 .intro-header .page-heading {
   padding: 100px 0 50px;
