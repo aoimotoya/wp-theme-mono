@@ -29,6 +29,13 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!-- jQuery -->
+    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="<?php echo get_template_directory_uri(); ?>/js/mono.min.js"></script>
+
     <?php wp_head(); ?>
 </head>
 
