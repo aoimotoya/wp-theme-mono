@@ -60,7 +60,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="<?php echo home_url('/'); ?>">Home</a></li>
+                    <li><a href="<?php echo get_admin_url(); ?>">Admin</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
