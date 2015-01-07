@@ -2,6 +2,9 @@
 
 <?php if (have_posts()) : ?>
     <?php while (have_posts()) : the_post(); ?>
+        <div class="excerpt">
+        <?php echo "<p>要約：<br />"; echo get_the_excerpt(); echo "</p>\n"; ?>
+        </div>
         <?php the_content(); ?>
                 <hr />
                 <!-- Pager -->
