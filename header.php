@@ -62,6 +62,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="<?php echo home_url('/'); echo "category/tech/"; ?>">Tech</a></li>
                     <li><a href="<?php echo home_url('/'); echo "category/travel/"; ?>">Travel</a></li>
+                    <li><a href="<?php echo home_url('/'); echo "category/photo/"; ?>">Photo</a></li>
                     <li><a href="<?php echo get_admin_url(); ?>">Admin</a></li>
                 </ul>
             </div>
