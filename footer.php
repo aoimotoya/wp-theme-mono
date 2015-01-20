@@ -22,6 +22,14 @@
                                 </span>
                             </a>
                         </li>
+                        <li>
+                            <a href="<?php bloginfo('rss_url'); ?>">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
                     </ul>
                     <p class="copyright text-muted">Copyright &copy; <?php bloginfo('name'); ?> <?php echo date('Y'); ?></p>
                 </div>
